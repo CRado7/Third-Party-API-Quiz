@@ -1,1 +1,1 @@
-# Third-Party-API-Quiz
+# Web-API-Quiz
