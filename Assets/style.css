@@ -6,25 +6,29 @@
 
 a {
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 24px;
-    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(30, 117, 154);
     transition: 0s; 
 }
 
 a:hover{
-    color:antiquewhite;
+    color:rgb(60, 160, 200);
 }
 
 h1, h2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     font-size: 24px;
     color: black;
 }
 
+footer h2{
+    font-size: 12px;
+}
+
  footer, header{
     width: 100%;
-    background-color: rgb(148, 119, 82);
+    background-color: rgb(255, 255, 255);
     height: 35px;
     display: flex;
     justify-content: center;
@@ -53,5 +57,24 @@ footer{
 #content {
     width: 576px;
     margin: auto;
+    margin-top: 200px;
     text-align: center;
+}
+
+button {
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: rgb(30, 117, 154);
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0s;
+}
+
+button:hover {
+    background-color: rgb(60, 160, 200);
+}
+
+button:active {
+    background-color: rgb(60, 180, 220);
 }
