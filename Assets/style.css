@@ -17,7 +17,7 @@ a:hover{
 }
 
 h1, h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
     color: black;
 }
@@ -48,4 +48,10 @@ footer{
 
 #highscores{
     width: 30%;
+}
+
+#content {
+    width: 576px;
+    margin: auto;
+    text-align: center;
 }
