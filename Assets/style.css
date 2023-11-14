@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 /* text style */
 a {
     text-decoration: none;
@@ -25,6 +26,7 @@ h1, h2{
 footer h2{
     font-size: 12px;
 }
+
 /* footer and header style */
  footer, header{
     width: 100%;
@@ -54,12 +56,23 @@ footer{
     width: 30%;
 }
 
+/* quiz content style */
 #content {
     width: 576px;
     margin: auto;
     margin-top: 200px;
     text-align: center;
 }
+
+.end_quiz {
+    display: none;
+    width: 576px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 235px;
+}
+
 /* button style */
 button {
     display: inline-block;
