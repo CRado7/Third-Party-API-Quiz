@@ -4,7 +4,7 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width", initial-scale="1.0">
     <title>Web Development Quiz</title>
     <!-- Link to stylesheet using rel and href attributes -->
-    <link rel="stylesheet" href="Assets/style.css"/>
+    <link rel="stylesheet" href="Assets/CSS/style.css"/>
   </head>
 
 <body>
@@ -20,7 +20,7 @@
     <!-- Start Quiz Section-->
     <main id="content">
         <div id="start_quiz">
-            <div id="quiz_info">
+            <div class="display" id="quiz_info">
                 <h1>Coding Quiz Challenge</h1>
                 <br>
                 <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will decrease your time left by 10 seconds!</p>
@@ -28,13 +28,18 @@
                 <button id="start">Start Quiz</button>
             </div>
         </div>
-    
 
-    <!-- End Quiz Section-->
+    <!--Questions-->
+        <div class="hide" id="questions">
+            <h2 id="question-prompt"></h2>
+            <div class="options" id="options"></div>
+        </div>
+
+    <!--End Quiz Section-->
         <div class="end_quiz">
             <h1>Quiz Complete</h1>
             <p>Your score is:<span id="final_score"> 0 </span></p>
-            <p>Please enter your name (10 characters max):<input type="text" max="10"/></p>
+            <p>Please enter your Initia;ls (3 characters max):<input type="text" max="3"/></p>
             <button id="submit">SUBMIT</button>
         </div>
 
@@ -45,6 +50,9 @@
     <footer>
         <h2 id="web">A Web Development Quiz by Christopher Ferraro</h2>
     </footer>
+
+    <!--JavaScript-->
+    <script src="Assets/JS/script.js"></script>
 </body>
 
-</html
+</html>

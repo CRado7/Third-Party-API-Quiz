@@ -57,6 +57,10 @@ footer{
 }
 
 /* quiz content style */
+.hide {
+    display: none;
+}
+
 #content {
     width: 576px;
     margin: auto;
