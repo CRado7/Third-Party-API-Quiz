@@ -198,5 +198,14 @@ function clock() {
   }
 }
 
+function quizEnd() {
+  clearInterval(timerId);
+  document.getElementById("end_quiz").style.display = "block";
+  feedbackEl.style.display = "none";
+  var finalScoreEl = document.getElementById("final_score");
+  finalScoreEl.textContent = points;
+  document.getElementById("questions").style.display = "none"
+}
+
 // Start Quiz
 startBtn.onclick = quizStart;
