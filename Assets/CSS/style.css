@@ -57,7 +57,7 @@ footer{
 }
 
 /* quiz content style */
-.hide {
+#questions {
     display: none;
 }
 
@@ -94,4 +94,13 @@ button:hover {
 
 button:active {
     background-color: rgb(60, 180, 220);
+}
+
+.feedback {
+    font-style: bold;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 15px;
+    color: #fff;
+    border-top: 2px solid rgb(60, 160, 200);
 }
