@@ -129,9 +129,13 @@
 // ];
 
 var startBtn = document.querySelector("#start");
+var timerCount = document.querySelector("#count");
+
+var startTime = 60;
 
 function quizStart() {
     document.getElementById("quiz_info").style.display = "none";
+    timerCount.textContent = startTime;
 }
 
 // Start Quiz
